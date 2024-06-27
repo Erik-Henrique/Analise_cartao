@@ -25,7 +25,7 @@ page_bg_img = """
     """
 st.markdown(page_bg_img, unsafe_allow_html=True)
   
-DATA_URL = (r"C:\\Users\\erikd\\OneDrive\\Área de Trabalho\\Portifolio\\Projeto Semantix\\Pages\\Application_Data.csv")
+DATA_URL = (r"https://raw.githubusercontent.com/Erik-Henrique/Analise_cartao/main/Application_Data.csv")
   # Adicionando o data frame a uma variável
 df = pd.read_csv(DATA_URL)
 df.drop(['Applicant_ID','Owned_Work_Phone', 'Owned_Phone', 'Owned_Email'], axis=1, inplace=True)
