@@ -21,7 +21,9 @@ def app():
       </style>
       """
   st.markdown(page_bg_img, unsafe_allow_html=True)
-    
+
+  st.set_option('deprecation.showPyplotGlobalUse', False)
+  
   DATA_URL = (r"https://raw.githubusercontent.com/Erik-Henrique/Analise_cartao/main/Application_Data.csv")
     # Adicionando o data frame a uma variável
   df = pd.read_csv(DATA_URL)
