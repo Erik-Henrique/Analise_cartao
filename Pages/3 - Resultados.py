@@ -8,8 +8,7 @@ def app():
 #
   page_bg_img = """
       <style>
-      [data-testid="stAppViewContainer"] {
-      background-image: url("https://www.shutterstock.com/shutterstock/photos/1684808446/display_1500/stock-vector-widescreen-abstract-financial-chart-with-uptrend-line-graph-and-candlestick-on-black-and-white-1684808446.jpg");
+      [data-testid="stAppViewContainer"];
       background-size: cover;
       }
       [data-testid="stSidebarContent"] {
