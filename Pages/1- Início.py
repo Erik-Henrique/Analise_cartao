@@ -4,7 +4,7 @@ import pandas as pd
 def app():
 #
   
-  st.markdown(page_bg_img, unsafe_allow_html=True)
+  st.markdown(unsafe_allow_html=True)
     
   st.write("# Bem vindo  👋")
     
