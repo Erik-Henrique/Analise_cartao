@@ -2,10 +2,7 @@ import streamlit as st
 import pandas as pd
 
 def app():
-#
-  
-  st.markdown(unsafe_allow_html=True)
-    
+#    
   st.write("# Bem vindo  👋")
     
   st.write('''#### Este é um Web App desenvolvido para análisar a liberação de um cartão de crédito para nossos clientes.''')
