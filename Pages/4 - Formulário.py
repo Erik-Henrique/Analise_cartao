@@ -5,8 +5,7 @@ from sklearn.linear_model import LogisticRegression
 
 def app():
 #
-  st.write('## Formulario para análise de liberação do cartão de crédito')
-  
+  st.write('## Formulario para análise de liberação do cartão de crédito')  
   
   DATA_URL = (r"https://raw.githubusercontent.com/Erik-Henrique/Analise_cartao/main/Application_Data.csv")
     # Adicionando o data frame a uma variável
