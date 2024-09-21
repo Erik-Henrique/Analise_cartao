@@ -5,24 +5,6 @@ from sklearn.linear_model import LogisticRegression
 
 def app():
 #
-  page_bg_img = """
-      <style>
-      [data-testid="stAppViewContainer"] {
-      background-image: url("https://www.shutterstock.com/shutterstock/photos/1684808446/display_1500/stock-vector-widescreen-abstract-financial-chart-with-uptrend-line-graph-and-candlestick-on-black-and-white-1684808446.jpg");
-      background-size: cover;
-      }
-      [data-testid="stSidebarContent"] {
-      background-image: url("https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/291779830_105699482202577_6654195867880689942_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFmWDx72lVg_Xqax3nN15UAM7OA3lH5H_czs4DeUfkf93MF8MNtwes4i-94OtkabFUcBhgc2icdjFNl0_a83aOR&_nc_ohc=7LpSckNKdsoQ7kNvgF7eG5B&_nc_ht=scontent-gru1-1.xx&oh=00_AYB3PEuRb6OtaU79IjMzaFMdP4Ko3GJ7j2MvUiRfTsAElA&oe=66516BCB");
-      background-size: cover;
-      }
-      [data-testid="stHeader"] {
-      background-color: rgba(0,0,0,0);
-      }
-      </style>
-      """
-  st.markdown(page_bg_img, unsafe_allow_html=True)
-    
-  
   st.write('## Formulario para análise de liberação do cartão de crédito')
   
   
