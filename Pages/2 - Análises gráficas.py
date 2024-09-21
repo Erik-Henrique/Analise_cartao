@@ -5,9 +5,6 @@ import matplotlib.pyplot as plt
 
 def app():
 #
-  
-  st.markdown(page_bg_img, unsafe_allow_html=True)
-
   st.set_option('deprecation.showPyplotGlobalUse', False)
   
   DATA_URL = (r"https://raw.githubusercontent.com/Erik-Henrique/Analise_cartao/main/Application_Data.csv")
